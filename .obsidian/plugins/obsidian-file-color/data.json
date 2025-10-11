@@ -1,0 +1,35 @@
+{
+  "cascadeColors": false,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "yCLP8Wy2RnGQv1Yc-beUD",
+      "name": "",
+      "value": "#612e51"
+    },
+    {
+      "id": "nBKSV9UM7U69vo5zNHw8s",
+      "name": "",
+      "value": "#1c6921"
+    },
+    {
+      "id": "OHomcBZjcRbN6BQ7yIR4b",
+      "name": "",
+      "value": "#32956f"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "Hack The Box",
+      "color": "nBKSV9UM7U69vo5zNHw8s"
+    },
+    {
+      "path": "Try Hack Me",
+      "color": "OHomcBZjcRbN6BQ7yIR4b"
+    },
+    {
+      "path": "Templates",
+      "color": "yCLP8Wy2RnGQv1Yc-beUD"
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "main": {
+    "id": "48730bd6ae1037e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "85a586cbddee573b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75e3eaf4814aae4c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6b3b798c60a247fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3107deb01245e1a",
+        "type": "tabs",
+        "dimension": 62.005277044854886,
+        "children": [
+          {
+            "id": "2e33602f8f36fbc2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6c02c02ee6cbfd60",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e76a96879f477c7c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "498b6043a97ac259",
+        "type": "tabs",
+        "dimension": 37.99472295514512,
+        "children": [
+          {
+            "id": "ad1f193a62ff4459",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 277.5
+  },
+  "right": {
+    "id": "24d7d1668617d6dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "0bb3e2048e173412",
+        "type": "tabs",
+        "dimension": 60.62499999999999,
+        "children": [
+          {
+            "id": "97777ae8242043c4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Hack The Box/Meow/Meow.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Meow"
+            }
+          },
+          {
+            "id": "3dc86c20726b088d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Hack The Box/Meow/Meow.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Meow"
+            }
+          },
+          {
+            "id": "3176a081d8a11481",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b38409b4e7bcaaa8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Hack The Box/Meow/Meow.md",
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Meow"
+            }
+          },
+          {
+            "id": "36cc3071daa9dc35",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "planner-timeline"
+            }
+          },
+          {
+            "id": "14e5060316f47d7d",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "planner-timeline"
+            }
+          },
+          {
+            "id": "bf2e551b6d3beefb",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "4e776e5a5845cd9c",
+        "type": "tabs",
+        "dimension": 39.375,
+        "children": [
+          {
+            "id": "71c9bbf01894ac2e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 278.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "daily-notes:Open today's daily note": false,
+      "graph:Open graph view": false,
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "ad1f193a62ff4459",
+  "lastOpenFiles": [
+    "Hack The Box/Meow/Meow.md",
+    "Welcome.md",
+    "Priorities/Priority List.md",
+    "Hack The Box/Meow/Meow.pdf",
+    "Hack The Box/Untitled.md",
+    "Hack The Box/Meow/Pasted image 20251006231232.png",
+    "Hack The Box/Meow",
+    "Hack The Box/Meow/Pasted image 20251007195110.png",
+    "Hack The Box/Meow/Pasted image 20251007195030.png",
+    "Hack The Box/Meow/Pasted image 20251007192120.png",
+    "Hack The Box/Meow/Pasted image 20251007185723.png",
+    "Pasted image 20251006231016.png",
+    "Templates/htb-template.md",
+    "Templates",
+    "Untitled.md",
+    "Try Hack Me",
+    "Hack The Box",
+    "2025-10-05.md",
+    "Priorities",
+    "Germany/Germany Tour Plan (12 Days).md",
+    "Germany/Untitled.canvas",
+    "Germany"
+  ]
+}
