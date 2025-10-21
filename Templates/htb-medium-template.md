@@ -1,20 +1,20 @@
 <%*
-let box = await tp.system.prompt("Box name (e.g., Stone)");
-let ip = await tp.system.prompt("Target IP or hostname");
-let date = tp.date.now("YYYY-MM-DD");
-let difficulty = await tp.system.prompt("Difficulty (Easy/Medium/Hard)");
-let author = await tp.system.prompt("Your handle/author name");
-let os = await tp.system.prompt("Target OS (Linux/Windows)");
-let summary = await tp.system.prompt("One-line summary for header");
+let Box = await tp.system.prompt("Box name (e.g., Stone)");
+let Ip = await tp.system.prompt("Target IP or hostname");
+let Date = tp.date.now("YYYY-MM-DD");
+let Difficulty = await tp.system.prompt("Difficulty (Easy/Medium/Hard)");
+let Author = await tp.system.prompt("Your handle/author name");
+let Os = await tp.system.prompt("Target OS (Linux/Windows)");
+let Summary = await tp.system.prompt("One-line summary for header");
 
 tR += `---
-box: ${box}
-ip: ${ip}
-date: ${date}
-difficulty: ${difficulty}
-author: ${author}
-os: ${os}
-summary: ${summary}
+Box: ${box}
+Ip: ${ip}
+Date: ${date}
+Difficulty: ${difficulty}
+Author: ${author}
+Os: ${os}
+Summary: ${summary}
 ---
 
 # ${box} — ${difficulty}
