@@ -31,16 +31,16 @@ ${summary}
 
 ## Enumeration
 **Nmap command:**  
-\`\`\`bash
+\\\`\\\`\\\`bash
 nmap -sC -sV -oN nmap_initial.txt ${ip}
-\`\`\`
+\\\`\\\`\\\`
 
 **Key ports / services:**  
 - 80/HTTP —  
 - 22/SSH —
 
 **Web discovery (gobuster/ferox):**  
-- `/admin` — note
+- \`/admin\` — note
 
 ---
 
@@ -49,35 +49,35 @@ nmap -sC -sV -oN nmap_initial.txt ${ip}
 - Explanation of the vulnerability.
 
 **Commands used / exploit:**  
-\`\`\`bash
+\\\`\\\`\\\`bash
 # example commands/payloads used
-\`\`\`
+\\\`\\\`\\\`
 
 **Proof (user):**  
-\`\`\`
+\\\`\\\`
 whoami
 user
-\`\`\`
+\\\`\\\`
 
-**Screenshot:** `Attachments/${box}/initial_shell.png`
+**Screenshot:** \`Attachments/${box}/initial_shell.png\`
 
 ---
 
 ## Privilege Escalation
 **Method:** (SUID / sudo misconfig / creds / kernel exploit)  
 **Commands & steps:**  
-\`\`\`bash
+\\\`\\\`\\\`bash
 sudo -l
 find / -perm -4000 -type f 2>/dev/null
-\`\`\`
+\\\`\\\`\\\`
 
 **Proof (root):**  
-\`\`\`
+\\\`\\\`
 whoami
 root
-\`\`\`
+\\\`\\\`
 
-**Screenshot:** `Attachments/${box}/root.png`
+**Screenshot:** \`Attachments/${box}/root.png\`
 
 ---
 
@@ -88,7 +88,7 @@ root
 - Short learning points and next steps.
 
 ## Artifacts
-- Raw outputs: `nmap_initial.txt`, `gobuster.txt`, `linpeas.txt`
-- Attachments folder: `Attachments/${box}/`
+- Raw outputs: \`nmap_initial.txt\`, \`gobuster.txt\`, \`linpeas.txt\`
+- Attachments folder: \`Attachments/${box}/\`
 `
 %>
