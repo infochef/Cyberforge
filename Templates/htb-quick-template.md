@@ -1,29 +1,29 @@
 <%*
-let box = await tp.system.prompt("Box name (e.g., Stone)");
-let ip = await tp.system.prompt("Target IP or hostname");
-let date = tp.date.now("YYYY-MM-DD");
-let difficulty = await tp.system.prompt("Difficulty (Easy/Medium/Hard)");
-let short = await tp.system.prompt("One-line summary (quick)");
+let Box = await tp.system.prompt("Box name (e.g., Stone)");
+let Ip = await tp.system.prompt("Target IP or hostname");
+let Date = tp.date.now("YYYY-MM-DD");
+let Difficulty = await tp.system.prompt("Difficulty (Easy/Medium/Hard)");
+let Short = await tp.system.prompt("One-line summary (quick)");
 
 tR += `---
-box: ${box}
-ip: ${ip}
-date: ${date}
-difficulty: ${difficulty}
-summary: ${short}
+Box: ${Box}
+Ip: ${Ip}
+Date: ${Date}
+Difficulty: ${Difficulty}
+Summary: ${Short}
 ---
 
-# ${box} — Quick Note
+# ${Box} — Quick Note
 
-**IP:** ${ip}  
-**Date:** ${date}  
-**Difficulty:** ${difficulty}
+**IP:** ${Ip}  
+**Date:** ${Date}  
+**Difficulty:** ${Difficulty}
 
 ## One-line summary
-${short}
+${Short}
 
 ## Recon
-- Nmap: \`nmap -sC -sV -oN nmap.txt ${ip}\`
+- Nmap: \`nmap -sC -sV -oN nmap.txt ${Ip}\`
 - Key ports:
 
 ## Key Findings
@@ -44,7 +44,7 @@ ${short}
 **Proof (root):** \`whoami\` -> root
 
 ## Artifacts
-- nmap.txt, gobuster.txt, linpeas.txt (save to Attachments/${box}/)
+- nmap.txt, gobuster.txt, linpeas.txt (save to Attachments/${Box}/)
 
 ## Quick notes / lessons
 - 

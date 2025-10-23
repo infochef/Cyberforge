@@ -8,31 +8,31 @@ let Os = await tp.system.prompt("Target OS (Linux/Windows)");
 let Summary = await tp.system.prompt("One-line summary for header");
 
 tR += `---
-Box: ${box}
-Ip: ${ip}
-Date: ${date}
-Difficulty: ${difficulty}
-Author: ${author}
-Os: ${os}
-Summary: ${summary}
+Box: ${Box}
+Ip: ${Ip}
+Date: ${Date}
+Difficulty: ${Difficulty}
+Author: ${Author}
+Os: ${Os}
+Summary: ${Summary}
 ---
 
-# ${box} — ${difficulty}
+# ${Box} — ${Difficulty}
 
-**Author:** ${author}  
-**IP:** ${ip}  
-**OS:** ${os}  
-**Date:** ${date}  
+**Author:** ${Author}  
+**IP:** ${Ip}  
+**OS:** ${Os}  
+**Date:** ${Date}  
 
 ## Summary
-${summary}
+${Summary}
 
 ---
 
 ## Enumeration
 **Nmap command:**  
 \\\`\\\`\\\`bash
-nmap -sC -sV -oN nmap_initial.txt ${ip}
+nmap -sC -sV -oN nmap_initial.txt ${Ip}
 \\\`\\\`\\\`
 
 **Key ports / services:**  
@@ -59,7 +59,7 @@ whoami
 user
 \\\`\\\`
 
-**Screenshot:** \`Attachments/${box}/initial_shell.png\`
+**Screenshot:** \`Attachments/${Box}/initial_shell.png\`
 
 ---
 
@@ -77,7 +77,7 @@ whoami
 root
 \\\`\\\`
 
-**Screenshot:** \`Attachments/${box}/root.png\`
+**Screenshot:** \`Attachments/${Box}/root.png\`
 
 ---
 
@@ -89,6 +89,6 @@ root
 
 ## Artifacts
 - Raw outputs: \`nmap_initial.txt\`, \`gobuster.txt\`, \`linpeas.txt\`
-- Attachments folder: \`Attachments/${box}/\`
+- Attachments folder: \`Attachments/${Box}/\`
 `
 %>
